@@ -12,8 +12,9 @@ namespace GigHub.ViewModels
         
         public string Time { get; set; }
         
-        public int Genre { get; set; }
-        
+        // For communicate with Main Model (Gig)
+        public byte Genre { get; set; }
+        // For Display list of Genres which are coming from GigsController
         public IEnumerable<Genre> Genres { get; set; }
     }
 }

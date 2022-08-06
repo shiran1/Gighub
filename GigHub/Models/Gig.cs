@@ -7,16 +7,20 @@ namespace GigHub.Models
     {
         public int Id { get; set; }
         
-        [Required]
-        public ApplicationUser Artist { get; set; }
+        [Required] 
+        public string ArtistId { get; set; }
         
-        [Required]
-        [StringLength(255)]
+        [Required] [StringLength(255)] 
         public string Venue { get; set; }
         
         public DateTime DateTime { get; set; }
         
-        [Required]
+        [Required] 
+        public byte GenreId { get; set; }
+        
+        public ApplicationUser Artist { get; set; }
         public Genre Genre { get; set; }
+
+
     }
 }
