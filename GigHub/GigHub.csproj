@@ -208,10 +208,16 @@
     <Compile Include="Migrations\202208060541054_init.Designer.cs">
       <DependentUpon>202208060541054_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202208060628576_CreateGigTables.cs" />
+    <Compile Include="Migrations\202208060628576_CreateGigTables.Designer.cs">
+      <DependentUpon>202208060628576_CreateGigTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -292,6 +298,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202208060541054_init.resx">
       <DependentUpon>202208060541054_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208060628576_CreateGigTables.resx">
+      <DependentUpon>202208060628576_CreateGigTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
