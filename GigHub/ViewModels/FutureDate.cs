@@ -4,6 +4,9 @@ using System.Globalization;
 
 namespace GigHub.ViewModels
 {
+    /// <summary>
+    /// Validate if the date is in future
+    /// </summary>
     public class FutureDate : ValidationAttribute
     {
         public override bool IsValid(object value)
