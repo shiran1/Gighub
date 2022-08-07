@@ -22,9 +22,57 @@ select,
 textarea {
     max-width: 280px;
 }
+/* Custom general */
 
+.badge-primary {
+    background: #838308;  
+}
+
+.action-btn {
+    margin-top: 1rem;
+}
 /* adding validation styles*/
 span.field-validation-error {
     color: #ff3535;
     font-weight: bold;
+}
+
+
+/* Page level Styles*/
+.gigs {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.gigs > li {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.gigs .month {
+    background: red;
+    color: white;
+    font-weight: 500;
+    padding: 0 26px;
+    border-radius: 10px 10px 0 0;
+}
+
+.gigs .day {
+    text-align: center;
+    font-size: 30px;
+    border: red 1px solid;
+    border-radius: 0 0px 10px 10px;
+}
+
+.gigs .details {
+    margin-left: 3rem ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.gigs .details .artist {
+    font-weight: 600;
+    font-size: 18px;
+    
 }

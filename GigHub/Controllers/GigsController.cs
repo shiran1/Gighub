@@ -31,12 +31,14 @@ namespace GigHub.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(GigFormViewModel viewModel)
         {
+            
             if (!ModelState.IsValid)
             {
                 viewModel.Genres = _context.Genres.ToList();
                 return View("Create", viewModel);
             }
             
+            // constructing a Gig from GigView
             var gig = new Gig
             {
                 ArtistId = User.Identity.GetUserId(),

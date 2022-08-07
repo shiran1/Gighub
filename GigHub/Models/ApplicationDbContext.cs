@@ -12,10 +12,20 @@ namespace GigHub.Models
 
         public DbSet<Gig> Gigs { get; set; }
         public DbSet<Genre> Genres { get; set; }
-        
+        public DbSet<Attendace> Attendaces { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Attendace>()
+                .HasRequired(a => a.Gig)
+                .WithMany()
+                .WillCascadeOnDelete(false);
+            base.OnModelCreating(modelBuilder);
         }
     }
 }
