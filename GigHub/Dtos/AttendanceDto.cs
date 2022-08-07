@@ -4,4 +4,6 @@ namespace GigHub.Dtos
     {
         public int GigId { get; set; }
     }
+
+    
 }

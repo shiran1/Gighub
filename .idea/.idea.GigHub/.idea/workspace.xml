@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="030c56c0-985e-42fc-a63f-b324912f28ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GigHub/Controllers/FollowingController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GigHub/Dtos/FollowingDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GigHub/Migrations/202208070753060_AddFollowing.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GigHub/Migrations/202208070753060_AddFollowing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GigHub/Migrations/202208070753060_AddFollowing.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GigHub/Models/Following.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GigHub/Controllers/AttendanceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GigHub/Controllers/AttendanceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GigHub/Controllers/GigsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GigHub/Controllers/GigsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GigHub/Dtos/AttendanceDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GigHub/Dtos/AttendanceDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GigHub/GigHub.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GigHub/GigHub.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GigHub/Models/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GigHub/Models/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GigHub/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GigHub/Views/Home/Index.cshtml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GigHub/Views/Home/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1121">
+              <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+              <folding>
+                <marker date="1659860719777" expanded="true" signature="38:75" ph="@..." />
+                <marker date="1659860719777" expanded="true" signature="99:1237" ph="@..." />
+                <marker date="1659860719777" expanded="true" signature="126:1237" ph="{...}" />
+                <marker date="1659860719777" expanded="true" signature="1245:2429" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GigHub/Controllers/FollowingController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <marker date="1659861754104" expanded="true" signature="6:114" ph="..." />
+                <marker date="1659861754104" expanded="true" signature="144:936" ph="{...}" />
+                <marker date="1659861754104" expanded="true" signature="215:934" ph="{...}" />
+                <marker date="1659861754104" expanded="true" signature="306:377" ph="{...}" />
+                <marker date="1659861754104" expanded="true" signature="454:928" ph="{...}" />
+                <marker date="1659861754104" expanded="true" signature="557:646" ph="{...}" />
+                <marker date="1659861754104" expanded="true" signature="714:806" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GigHub/Models/ApplicationUser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <marker date="1659795143224" expanded="true" signature="6:186" ph="..." />
+                <marker date="1659795143224" expanded="true" signature="211:973" ph="{...}" />
+                <marker date="1659795143224" expanded="true" signature="437:971" ph="{...}" />
+                <marker date="1659795143224" expanded="true" signature="631:965" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GigHub/Controllers/AttendanceController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <marker date="1659860134153" expanded="true" signature="6:114" ph="..." />
+                <marker date="1659860134153" expanded="true" signature="144:1058" ph="{...}" />
+                <marker date="1659860134153" expanded="true" signature="216:1056" ph="{...}" />
+                <marker date="1659860134153" expanded="true" signature="308:379" ph="{...}" />
+                <marker date="1659860134153" expanded="true" signature="465:1050" ph="{...}" />
+                <marker date="1659860134153" expanded="true" signature="668:760" ph="{...}" />
+                <marker date="1659860134153" expanded="true" signature="829:915" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Email</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GigHub/Views/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Models/Following.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208060652198_PopulateGenresTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Dtos/FollowingDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/ViewModels/FutureDate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/Configuration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/ViewModels/ValidTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Views/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208060541054_init.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Models/ApplicationUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/ViewModels/AccountViewModels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/ViewModels/ManageViewModels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Controllers/AttendanceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208060628576_CreateGigTables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/ViewModels/GigFormViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Views/Gigs/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208060642520_OverrideConvetionsForGigsAndGenres.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Controllers/GigsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208061413414_AddNamePropToApplicationUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Models/Genre.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Models/Gig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/App_Start/IdentityConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/ViewModels/RegisterViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208061024047_AddForeignKeyPropertiesToGigs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Models/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208070245427_AddAttendace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Controllers/ManageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208060628576_CreateGigTables.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Controllers/FollowingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Views/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Dtos/AttendanceDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Global.asax" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Models/Attendace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GigHub/Migrations/202208070753060_AddFollowing.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GigHub/Web.config" />
+        <option value="$PROJECT_DIR$/GigHub/Models/IdentityModels.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Migrations/Configuration.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Models/Genre.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Migrations/202208060652198_PopulateGenresTable.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/GigHub/ViewModels/GigFormViewModel.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Content/bootstrap.css" />
+        <option value="$PROJECT_DIR$/GigHub/Views/Shared/_LoginPartial.cshtml" />
+        <option value="$PROJECT_DIR$/GigHub/Models/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/GigHub/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Models/Gig.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Views/Gigs/Create.cshtml" />
+        <option value="$PROJECT_DIR$/GigHub/Models/AccountViewModels.cs" />
+        <option value="$PROJECT_DIR$/GigHub/ViewModels/AccountViewModels.cs" />
+        <option value="$PROJECT_DIR$/GigHub/ViewModels/FutureDate.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Global.asax.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
+        <option value="$PROJECT_DIR$/GigHub/Content/Site.css" />
+        <option value="$PROJECT_DIR$/GigHub/Dtos/AttandanceDto.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Dtos/AttendanceDto.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Controllers/GigsController.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Dtos/Following.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Dtos/FollowingDto.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Controllers/FollowersController.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Models/Attendace.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Models/Following.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Models/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Controllers/AttendanceController.cs" />
+        <option value="$PROJECT_DIR$/GigHub/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/GigHub/Controllers/FollowingController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.GigHub/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.GigHub/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <autoscrollToSource SolutionExplorer="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dtos" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GigHub" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:53859" />
+          <option name="urlPath" value="/api/Attendance/Attend" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:53859" />
+          <option name="urlPath" value="/api/Attendance/Attend" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="2" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:53859" />
+          <option name="urlPath" value="/api/Attendance/Attend" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="gigId = 2" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:53859" />
+          <option name="urlPath" value="/api/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="gigId" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="C:/Program Files (x86)/IIS Express/iisexpress.exe" />
+      <option name="PROGRAM_PARAMETERS" value="/config:$PROJECT_DIR$/.idea/config/applicationhost.config /site:GigHub /apppool:Clr4IntegratedAppPool" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files (x86)/IIS Express" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/GigHub/GigHub.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.2" />
+      <browser url="http://localhost:53859/" start="true" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="030c56c0-985e-42fc-a63f-b324912f28ae" name="Default Changelist" comment="" />
+      <created>1659763440240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659763440240</updated>
+      <workItem from="1659763450083" duration="1541000" />
+      <workItem from="1659766026161" duration="938000" />
+      <workItem from="1659767089763" duration="2870000" />
+      <workItem from="1659772081376" duration="4470000" />
+      <workItem from="1659779240889" duration="6145000" />
+      <workItem from="1659789316932" duration="8316000" />
+      <workItem from="1659834057386" duration="690000" />
+      <workItem from="1659834867230" duration="12000000" />
+      <workItem from="1659857124427" duration="5963000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1659764089069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659764089069</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add database Connection and Inti migrations">
+      <created>1659766124968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659766124983</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add ApplicationDbContext to a separate file">
+      <created>1659766353428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659766353428</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Crete gig model">
+      <created>1659767554956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659767554956</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Renamed Files">
+      <created>1659767615354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659767615354</updated>
+    </task>
+    <task id="LOCAL-00006" summary="IDK">
+      <created>1659767631619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659767631619</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create Gig Model">
+      <created>1659768431909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659768431909</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Populate Genres Table">
+      <created>1659769230128</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659769230128</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Populate Genres Table">
+      <created>1659775229154</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659775229169</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Implement a saving a Gig.">
+      <created>1659781829819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659781829819</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Move DateTime calculation to GigFormViewModel.">
+      <created>1659782234898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659782234898</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implement validations for Gigs">
+      <created>1659785279934</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659785279934</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implement validations for Gigs&#10;&#10;Signed-off-by: shiran &lt;mrz5522@gmail.com&gt;">
+      <created>1659785474275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659785474275</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implement Anti-forgery token in Gigs">
+      <created>1659790388137</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659790388137</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implement usability of the site">
+      <created>1659794314832</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659794314833</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add name to Registration">
+      <created>1659797735481</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659797735481</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Refactor namespaces (Moved ViewModels to viewmodel folder">
+      <created>1659798020257</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659798020257</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Implement attending to a gig">
+      <created>1659857328390</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659857328390</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42933000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2887377" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.81804514" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.637594" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.7067669" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Entity Framework" order="16" sideWeight="0.5049131" side_tool="true" weight="0.518797" />
+      <window_info anchor="bottom" id="Build" order="17" sideWeight="0.49508694" weight="0.518797" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32955405" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="6" side_tool="true" weight="0.32955405" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2887377" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.81804514" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.637594" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.7067669" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Entity Framework" order="16" sideWeight="0.5049131" side_tool="true" weight="0.518797" />
+      <window_info anchor="bottom" id="Build" order="17" sideWeight="0.49508694" weight="0.518797" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32955405" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="6" side_tool="true" weight="0.32955405" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init" />
+    <MESSAGE value="Add database Connection and Inti migrations" />
+    <MESSAGE value="Add ApplicationDbContext to a separate file" />
+    <MESSAGE value="Crete gig model" />
+    <MESSAGE value="Renamed Files" />
+    <MESSAGE value="IDK" />
+    <MESSAGE value="Create Gig Model" />
+    <MESSAGE value="Populate Genres Table" />
+    <MESSAGE value="Implement a saving a Gig." />
+    <MESSAGE value="Move DateTime calculation to GigFormViewModel." />
+    <MESSAGE value="Implement validations for Gigs" />
+    <MESSAGE value="Implement validations for Gigs&#10;&#10;Signed-off-by: shiran &lt;mrz5522@gmail.com&gt;" />
+    <MESSAGE value="Implement Anti-forgery token in Gigs" />
+    <MESSAGE value="Implement usability of the site" />
+    <MESSAGE value="Add name to Registration" />
+    <MESSAGE value="Refactor namespaces (Moved ViewModels to viewmodel folder" />
+    <MESSAGE value="Implement attending to a gig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement attending to a gig" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GigHub/App_Start/IdentityConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428">
+          <folding>
+            <marker date="1659759631104" expanded="true" signature="6:364" ph="..." />
+            <marker date="1659759631104" expanded="true" signature="382:4316" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="440:631" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="501:625" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="686:881" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="747:875" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="1100:3459" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="1205:1225" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="1357:3453" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="1639:1752" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="1885:2103" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="2361:2569" ph="/* Register two factor authentication providers. This application uses Phone and Emails as a step of receiving a  ... */" />
+            <marker date="1659759631104" expanded="true" signature="2688:2763" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="2878:2993" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="3222:3415" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="3627:4314" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="3810:3830" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="3922:4030" ph="{...}" />
+            <marker date="1659759631104" expanded="true" signature="4165:4308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208060541054_init.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1659764467293" expanded="true" signature="27:4380" ph="{...}" />
+            <marker date="1659764467293" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659764467293" expanded="true" signature="137:4378" ph="{...}" />
+            <marker date="1659764467293" expanded="true" signature="177:3377" ph="{...}" />
+            <marker date="1659764467293" expanded="true" signature="293:462" ph="{...}" />
+            <marker date="1659764467293" expanded="true" signature="699:874" ph="{...}" />
+            <marker date="1659764467293" expanded="true" signature="1298:2092" ph="{...}" />
+            <marker date="1659764467293" expanded="true" signature="2334:2599" ph="{...}" />
+            <marker date="1659764467293" expanded="true" signature="2885:3148" ph="{...}" />
+            <marker date="1659764467293" expanded="true" signature="3422:4372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/Configuration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1659767340727" expanded="true" signature="7:58" ph="..." />
+            <marker date="1659767340727" expanded="true" signature="87:293" ph="{...}" />
+            <marker date="1659767340727" expanded="true" signature="179:290" ph="{...}" />
+            <marker date="1659767340727" expanded="true" signature="216:284" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208060628576_CreateGigTables.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <marker date="1659767340181" expanded="true" signature="27:1546" ph="{...}" />
+            <marker date="1659767340181" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659767340181" expanded="true" signature="148:1544" ph="{...}" />
+            <marker date="1659767340181" expanded="true" signature="188:1148" ph="{...}" />
+            <marker date="1659767340181" expanded="true" signature="299:419" ph="{...}" />
+            <marker date="1659767340181" expanded="true" signature="572:879" ph="{...}" />
+            <marker date="1659767340181" expanded="true" signature="1193:1538" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208060642520_OverrideConvetionsForGigsAndGenres.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1659768174943" expanded="true" signature="27:1980" ph="{...}" />
+            <marker date="1659768174943" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659768174943" expanded="true" signature="167:1978" ph="{...}" />
+            <marker date="1659768174943" expanded="true" signature="207:1135" ph="{...}" />
+            <marker date="1659768174943" expanded="true" signature="1180:1972" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208060652198_PopulateGenresTable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1659769108204" expanded="true" signature="27:614" ph="{...}" />
+            <marker date="1659769108204" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659769108204" expanded="true" signature="148:612" ph="{...}" />
+            <marker date="1659769108204" expanded="true" signature="188:488" ph="{...}" />
+            <marker date="1659769108204" expanded="true" signature="525:606" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Models/Genre.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1659768371424" expanded="true" signature="94:241" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/ViewModels/ManageViewModels.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208061024047_AddForeignKeyPropertiesToGigs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1659781446569" expanded="true" signature="27:987" ph="{...}" />
+            <marker date="1659781446569" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659781446569" expanded="true" signature="162:985" ph="{...}" />
+            <marker date="1659781446569" expanded="true" signature="202:568" ph="{...}" />
+            <marker date="1659781446569" expanded="true" signature="613:979" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Views/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/ViewModels/ValidTime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1659784824700" expanded="false" signature="6:86" ph="..." />
+            <marker date="1659784824700" expanded="true" signature="115:476" ph="{...}" />
+            <marker date="1659784824700" expanded="true" signature="166:474" ph="{...}" />
+            <marker date="1659784824700" expanded="true" signature="223:468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Content/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="10" column="116638" selection-start-line="10" selection-start-column="116638" selection-end-line="10" selection-end-column="116638" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Views/Account/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <marker date="1659797604823" expanded="true" signature="43:79" ph="@..." />
+            <marker date="1659797604823" expanded="true" signature="107:1543" ph="@..." />
+            <marker date="1659797604823" expanded="true" signature="222:1543" ph="{...}" />
+            <marker date="1659797604823" expanded="true" signature="1545:1608" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208061413414_AddNamePropToApplicationUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1659795224532" expanded="true" signature="27:443" ph="{...}" />
+            <marker date="1659795224532" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659795224532" expanded="true" signature="161:441" ph="{...}" />
+            <marker date="1659795224532" expanded="true" signature="201:319" ph="{...}" />
+            <marker date="1659795224532" expanded="true" signature="364:435" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+          <folding>
+            <marker date="1659797619137" expanded="true" signature="6:308" ph="..." />
+            <marker date="1659797619137" expanded="true" signature="338:17519" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="404:17517" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="556:576" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="687:789" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="844:1106" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="870:1001" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1026:1096" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1157:1421" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1183:1321" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1345:1411" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1431:1464" ph="/* GET: /Account/Login ... */" />
+            <marker date="1659797619137" expanded="true" signature="1541:1631" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1641:1675" ph="/* POST: /Account/Login ... */" />
+            <marker date="1659797619137" expanded="true" signature="1840:2873" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1887:1951" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="1965:2126" ph="/* This doesn't count login failures towards account lockout ... */" />
+            <marker date="1659797619137" expanded="true" signature="2289:2863" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="2883:2921" ph="/* GET: /Account/VerifyCode ... */" />
+            <marker date="1659797619137" expanded="true" signature="3049:3417" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="3219:3285" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="3427:3466" ph="/* POST: /Account/VerifyCode ... */" />
+            <marker date="1659797619137" expanded="true" signature="3623:4684" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="3670:3734" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="3748:4082" ph="/* The following code protects for brute force attacks against the two factor codes. ... */" />
+            <marker date="1659797619137" expanded="true" signature="4278:4674" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="4694:4730" ph="/* GET: /Account/Register ... */" />
+            <marker date="1659797619137" expanded="true" signature="4794:4841" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="4851:4888" ph="/* POST: /Account/Register ... */" />
+            <marker date="1659797619137" expanded="true" signature="5041:6448" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="5087:6337" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="5165:5308" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="5430:6288" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="5592:6207" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+            <marker date="1659797619137" expanded="true" signature="6458:6498" ph="/* GET: /Account/ConfirmEmail ... */" />
+            <marker date="1659797619137" expanded="true" signature="6604:6884" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="6662:6728" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="6894:6936" ph="/* GET: /Account/ForgotPassword ... */" />
+            <marker date="1659797619137" expanded="true" signature="7006:7053" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="7063:7106" ph="/* POST: /Account/ForgotPassword ... */" />
+            <marker date="1659797619137" expanded="true" signature="7271:8498" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="7317:8387" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="7495:7679" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="7697:8373" ph="/* For more information on how to enable account confirmation and password reset please visit http://go.microsoft ... */" />
+            <marker date="1659797619137" expanded="true" signature="8508:8562" ph="/* GET: /Account/ForgotPasswordConfirmation ... */" />
+            <marker date="1659797619137" expanded="true" signature="8644:8691" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="8701:8742" ph="/* GET: /Account/ResetPassword ... */" />
+            <marker date="1659797619137" expanded="true" signature="8822:8900" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="8910:8952" ph="/* POST: /Account/ResetPassword ... */" />
+            <marker date="1659797619137" expanded="true" signature="9115:9808" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="9162:9226" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="9327:9497" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="9631:9740" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="9818:9871" ph="/* GET: /Account/ResetPasswordConfirmation ... */" />
+            <marker date="1659797619137" expanded="true" signature="9952:9999" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="10009:10051" ph="/* POST: /Account/ExternalLogin ... */" />
+            <marker date="1659797619137" expanded="true" signature="10207:10421" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="10431:10467" ph="/* GET: /Account/SendCode ... */" />
+            <marker date="1659797619137" expanded="true" signature="10576:11108" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="10689:10755" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="11118:11155" ph="/* POST: /Account/SendCode ... */" />
+            <marker date="1659797619137" expanded="true" signature="11308:11776" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="11355:11414" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="11546:11612" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="11786:11835" ph="/* GET: /Account/ExternalLoginCallback ... */" />
+            <marker date="1659797619137" expanded="true" signature="11940:13189" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="12070:12148" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="12373:13179" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="13199:13253" ph="/* POST: /Account/ExternalLoginConfirmation ... */" />
+            <marker date="1659797619137" expanded="true" signature="13458:14659" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="13515:13603" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="13640:14573" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="13859:13952" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="14152:14524" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="14295:14506" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="14669:14704" ph="/* POST: /Account/LogOff ... */" />
+            <marker date="1659797619137" expanded="true" signature="14795:14958" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="14968:15016" ph="/* GET: /Account/ExternalLoginFailure ... */" />
+            <marker date="1659797619137" expanded="true" signature="15092:15139" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="15196:15642" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="15233:15594" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="15289:15410" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="15455:15580" ph="{...}" />
+            <marker date="1659797619137" expanded="false" signature="15652:17511" ph="Helpers" />
+            <marker date="1659797619137" expanded="true" signature="15842:15974" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="15868:15964" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="16029:16179" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="16088:16169" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="16243:16432" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="16296:16368" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="16497:17492" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="16631:16659" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="16747:16893" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="17122:17482" ph="{...}" />
+            <marker date="1659797619137" expanded="true" signature="17265:17362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Models/Gig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <marker date="1659796568832" expanded="false" signature="6:58" ph="..." />
+            <marker date="1659796568832" expanded="true" signature="83:561" ph="{...}" />
+            <marker date="1659796568832" expanded="true" signature="106:559" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Views/Shared/_LoginPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="159" lean-forward="true" selection-start-line="9" selection-start-column="159" selection-end-line="9" selection-end-column="159" />
+          <folding>
+            <marker date="1659791890154" expanded="true" signature="33:1178" ph="@..." />
+            <marker date="1659791890154" expanded="true" signature="62:856" ph="{...}" />
+            <marker date="1659791890154" expanded="true" signature="186:854" ph="{...}" />
+            <marker date="1659791890154" expanded="true" signature="861:1178" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Views/Gigs/Create.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+          <folding>
+            <marker date="1659797364764" expanded="true" signature="42:132" ph="@..." />
+            <marker date="1659797364764" expanded="true" signature="161:1315" ph="@..." />
+            <marker date="1659797364764" expanded="true" signature="203:1315" ph="{...}" />
+            <marker date="1659797364764" expanded="true" signature="1046:1184" ph="@{...}" />
+            <marker date="1659797364764" expanded="true" signature="1317:1380" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Models/RegisterViewModel.cs" />
+    <entry file="file://$PROJECT_DIR$/GigHub/ViewModels/RegisterViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1659797604122" expanded="true" signature="73:819" ph="{...}" />
+            <marker date="1659797604122" expanded="true" signature="110:817" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/ViewModels/SendCodeViewModel.cs" />
+    <entry file="file://$PROJECT_DIR$/GigHub/ViewModels/AccountViewModels.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1302">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <marker date="1659797841656" expanded="true" signature="6:78" ph="..." />
+            <marker date="1659797841656" expanded="true" signature="107:2453" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="161:268" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="313:371" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="407:645" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="683:1047" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="1081:1188" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="1221:1578" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="1619:2279" ph="{...}" />
+            <marker date="1659797841656" expanded="true" signature="2321:2451" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/ViewModels/FutureDate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <marker date="1659797976274" expanded="true" signature="6:86" ph="..." />
+            <marker date="1659797976274" expanded="true" signature="115:636" ph="{...}" />
+            <marker date="1659797976274" expanded="true" signature="122:196" ph="/// Validate if the date is in future ... " />
+            <marker date="1659797976274" expanded="true" signature="246:634" ph="{...}" />
+            <marker date="1659797976274" expanded="true" signature="303:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/ViewModels/GigFormViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#139#0" expanded="true" />
+            <marker date="1659784794583" expanded="true" signature="204:853" ph="{...}" />
+            <marker date="1659784794583" expanded="true" signature="759:847" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <marker date="1659835731348" expanded="true" signature="6:101" ph="..." />
+            <marker date="1659835731348" expanded="true" signature="131:933" ph="{...}" />
+            <marker date="1659835731348" expanded="true" signature="178:931" ph="{...}" />
+            <marker date="1659835731348" expanded="true" signature="273:344" ph="{...}" />
+            <marker date="1659835731348" expanded="true" signature="381:633" ph="{...}" />
+            <marker date="1659835731348" expanded="true" signature="670:786" ph="{...}" />
+            <marker date="1659835731348" expanded="true" signature="825:925" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208070228184_AddAttendace.cs" />
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208070245427_AddAttendace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1659840344518" expanded="true" signature="27:1153" ph="{...}" />
+            <marker date="1659840344518" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659840344518" expanded="true" signature="145:1151" ph="{...}" />
+            <marker date="1659840344518" expanded="true" signature="185:768" ph="{...}" />
+            <marker date="1659840344518" expanded="true" signature="300:459" ph="{...}" />
+            <marker date="1659840344518" expanded="true" signature="813:1145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Global.asax">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Global.asax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1659841962152" expanded="true" signature="6:119" ph="..." />
+            <marker date="1659841962152" expanded="true" signature="137:867" ph="{...}" />
+            <marker date="1659841962152" expanded="true" signature="189:865" ph="{...}" />
+            <marker date="1659841962152" expanded="true" signature="238:859" ph="{...}" />
+            <marker date="1659841962152" expanded="true" signature="313:605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Views/Manage/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1659797870629" expanded="true" signature="40:74" ph="@..." />
+            <marker date="1659797870629" expanded="true" signature="309:538" ph="@..." />
+            <marker date="1659797870629" expanded="true" signature="332:435" ph="{...}" />
+            <marker date="1659797870629" expanded="true" signature="452:538" ph="{...}" />
+            <marker date="1659797870629" expanded="true" signature="727:1997" ph="@*...*@" />
+            <marker date="1659797870629" expanded="true" signature="2359:3282" ph="@*...*@" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Content/Site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Dtos/FollowingDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <marker date="1659858292960" expanded="true" signature="21:112" ph="{...}" />
+            <marker date="1659858292960" expanded="true" signature="53:110" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Controllers/FollowersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Migrations/202208070753060_AddFollowing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1659859469919" expanded="true" signature="27:1204" ph="{...}" />
+            <marker date="1659859469919" expanded="false" signature="40:88" ph="..." />
+            <marker date="1659859469919" expanded="true" signature="145:1202" ph="{...}" />
+            <marker date="1659859469919" expanded="true" signature="185:806" ph="{...}" />
+            <marker date="1659859469919" expanded="true" signature="300:481" ph="{...}" />
+            <marker date="1659859469919" expanded="true" signature="851:1196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Models/Attendace.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1659858471723" expanded="true" signature="6:96" ph="..." />
+            <marker date="1659858471723" expanded="true" signature="121:444" ph="{...}" />
+            <marker date="1659858471723" expanded="true" signature="150:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Dtos/AttendanceDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1659857510465" expanded="true" signature="21:113" ph="{...}" />
+            <marker date="1659857510465" expanded="true" signature="54:105" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Controllers/GigsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <marker date="1659858210080" expanded="true" signature="6:133" ph="..." />
+            <marker date="1659858210080" expanded="true" signature="163:1427" ph="{...}" />
+            <marker date="1659858210080" expanded="true" signature="210:1425" ph="{...}" />
+            <marker date="1659858210080" expanded="true" signature="305:376" ph="{...}" />
+            <marker date="1659858210080" expanded="true" signature="434:618" ph="{...}" />
+            <marker date="1659858210080" expanded="true" signature="506:571" ph="{...}" />
+            <marker date="1659858210080" expanded="true" signature="756:1401" ph="{...}" />
+            <marker date="1659858210080" expanded="true" signature="816:955" ph="{...}" />
+            <marker date="1659858210080" expanded="true" signature="1058:1262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Models/Following.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1659858726993" expanded="true" signature="6:96" ph="..." />
+            <marker date="1659858726993" expanded="true" signature="121:456" ph="{...}" />
+            <marker date="1659858726993" expanded="true" signature="150:454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Models/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <marker date="1659859421088" expanded="true" signature="6:74" ph="..." />
+            <marker date="1659859421088" expanded="true" signature="99:1100" ph="{...}" />
+            <marker date="1659859421088" expanded="true" signature="176:1098" ph="{...}" />
+            <marker date="1659859421088" expanded="true" signature="260:280" ph="{...}" />
+            <marker date="1659859421088" expanded="true" signature="543:610" ph="{...}" />
+            <marker date="1659859421088" expanded="true" signature="688:1092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding>
+            <marker date="1659860719777" expanded="true" signature="38:75" ph="@..." />
+            <marker date="1659860719777" expanded="true" signature="99:1237" ph="@..." />
+            <marker date="1659860719777" expanded="true" signature="126:1237" ph="{...}" />
+            <marker date="1659860719777" expanded="true" signature="1245:2429" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Controllers/AttendanceController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1659860134153" expanded="true" signature="6:114" ph="..." />
+            <marker date="1659860134153" expanded="true" signature="144:1058" ph="{...}" />
+            <marker date="1659860134153" expanded="true" signature="216:1056" ph="{...}" />
+            <marker date="1659860134153" expanded="true" signature="308:379" ph="{...}" />
+            <marker date="1659860134153" expanded="true" signature="465:1050" ph="{...}" />
+            <marker date="1659860134153" expanded="true" signature="668:760" ph="{...}" />
+            <marker date="1659860134153" expanded="true" signature="829:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Models/ApplicationUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <marker date="1659795143224" expanded="true" signature="6:186" ph="..." />
+            <marker date="1659795143224" expanded="true" signature="211:973" ph="{...}" />
+            <marker date="1659795143224" expanded="true" signature="437:971" ph="{...}" />
+            <marker date="1659795143224" expanded="true" signature="631:965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GigHub/Controllers/FollowingController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1659861754104" expanded="true" signature="6:114" ph="..." />
+            <marker date="1659861754104" expanded="true" signature="144:936" ph="{...}" />
+            <marker date="1659861754104" expanded="true" signature="215:934" ph="{...}" />
+            <marker date="1659861754104" expanded="true" signature="306:377" ph="{...}" />
+            <marker date="1659861754104" expanded="true" signature="454:928" ph="{...}" />
+            <marker date="1659861754104" expanded="true" signature="557:646" ph="{...}" />
+            <marker date="1659861754104" expanded="true" signature="714:806" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

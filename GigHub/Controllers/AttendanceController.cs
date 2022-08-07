@@ -1,6 +1,5 @@
 using System.Linq;
 using System.Web.Http;
-using System.Web.Http.Results;
 using GigHub.Dtos;
 using GigHub.Models;
 using Microsoft.AspNet.Identity;

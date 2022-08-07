@@ -14,6 +14,8 @@ namespace GigHub.Models
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Attendace> Attendaces { get; set; }
 
+        public DbSet<Following> Followings { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
@@ -23,6 +25,11 @@ namespace GigHub.Models
         {
             modelBuilder.Entity<Attendace>()
                 .HasRequired(a => a.Gig)
+                .WithMany()
+                .WillCascadeOnDelete(false);
+            
+            modelBuilder.Entity<Following>()
+                .HasRequired(f => f.Follower)
                 .WithMany()
                 .WillCascadeOnDelete(false);
             base.OnModelCreating(modelBuilder);

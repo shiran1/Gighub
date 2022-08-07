@@ -25,8 +25,12 @@
                 </span>
                 <div class="action-btn">
                     <button id="" class="btn btn-sm btn-info toogle-attand" data-gig-id="@gig.Id">
-                        going ?
+                        going?
                     </button>
+                    <button class="btn btn-sm btn-warning following" data-artistId="@gig.ArtistId">
+                        Following
+                    </button>
+                    
                 </div>
             </div>
         </li>
@@ -49,6 +53,18 @@
                  alert("Something is wrong");
                });
             });
+             $(".following").click(function (e) {
+                            var button = $(e.target);
+                           $.post("/api/Following", { ArtistId : button.attr("data-artistId") })
+                           .done(function(e) {
+                               button.removeClass("btn-warning")
+                               .addClass("btn-primary")
+                               .text("Unfollow");
+                           })
+                           .fail(function() {
+                             alert("Something is wrong");
+                           });
+                        });
         });
     </script>
 }
