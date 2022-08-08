@@ -1,28 +1,27 @@
 @model GigHub.ViewModels.GigFormViewModel
 @{
-    ViewBag.Title = "Create a new Gig";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.Heading;
 }
+<h2>@Model.Heading</h2>
 
-<h2>Create a new Gig</h2>
-
-@using (Html.BeginForm("Create", "Gigs"))
+@using (Html.BeginForm(Model.Action, "Gigs"))
 {
     <p class="alert alert-info">All Fields are <strong>REQUIRED</strong></p>
     @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
     <div class="form-group">
         @Html.LabelFor(m => m.Venue)
-        @Html.TextBoxFor(m => m.Venue, new {@class = "form-control", autofocus="autofocus"})
+        @Html.TextBoxFor(m => m.Venue, new {@class = "form-control", autofocus = "autofocus"})
         @Html.ValidationMessageFor(m => m.Venue)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Date)
-        @Html.TextBoxFor(m => m.Date, new {@class = "form-control", placeholder="Eg: 01 Jan 2025"})
+        @Html.TextBoxFor(m => m.Date, new {@class = "form-control", placeholder = "Eg: 01 Jan 2025"})
         @Html.ValidationMessageFor(m => m.Date)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Time)
-        @Html.TextBoxFor(m => m.Time, new {@class = "form-control", placeholder="Eg: 20:15"})
+        @Html.TextBoxFor(m => m.Time, new {@class = "form-control", placeholder = "Eg: 20:15"})
         @Html.ValidationMessageFor(m => m.Time)
     </div>
     <div class="form-group">

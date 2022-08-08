@@ -17,12 +17,15 @@
                 </div>
                 </div>
             <div class="details">
-                <span class="artist">
-                    @gig.Artist.Name
-                </span>
-                <span class="genre badge badge-primary">
-                    @gig.Genre.Name
-                </span>
+                <div class="details__info">
+
+                    <span class="artist">
+                        @gig.Artist.Name
+                    </span>
+                    <span class="genre badge badge-primary">
+                        @gig.Genre.Name
+                    </span>
+                </div>
                 <div class="action-btn">
                     <button id="" class="btn btn-sm btn-info toogle-attand" data-gig-id="@gig.Id">
                         going?
@@ -30,7 +33,7 @@
                     <button class="btn btn-sm btn-warning following" data-artistId="@gig.ArtistId">
                         Following
                     </button>
-                    
+
                 </div>
             </div>
         </li>

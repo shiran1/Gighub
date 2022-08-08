@@ -19,12 +19,17 @@
                 </div>
             </div>
             <div class="details">
-                <span class="artist">
-                    @gig.Venue
-                </span>
-                <span class="genre badge badge-primary">
-                    @gig.Genre.Name
-                </span>
+                <div class="details__info">
+                    <span class="artist">
+                        @gig.Venue
+                    </span>
+                    <span class="genre badge badge-primary">
+                        @gig.Genre.Name
+                    </span>
+                </div>
+                <div class="actions">
+                    <a href="@Url.Action("Edit", "Gigs", new {id = gig.Id})">Edit</a>
+                </div>
             </div>
         </li>
     }
