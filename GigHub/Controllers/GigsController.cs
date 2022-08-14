@@ -33,7 +33,20 @@ namespace GigHub.Controllers
                 UpComingGigs = gigs,
                 ShowAction = User.Identity.IsAuthenticated
             };
+            
             return View("index", viewModel);
+        }
+
+        [Authorize]
+        public ActionResult MyFollowing()
+        {
+            var userId = User.Identity.GetUserId();
+            var myFollowings = _context.Followings
+                .Where(f => f.FolloweeId == userId)
+                .Include(f => f.Follower)
+                .ToList();
+            
+            return View(myFollowings);
         }
 
         [Authorize]

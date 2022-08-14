@@ -320,6 +320,7 @@
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\Gigs\GigForm.cshtml" />
     <Content Include="Views\Gigs\Mine.cshtml" />
+    <Content Include="Views\Gigs\MyFollowing.cshtml" />
     <Content Include="Views\Shared\Index.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
