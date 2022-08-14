@@ -1,10 +1,10 @@
-﻿@model IEnumerable<GigHub.Models.Gig>
+﻿@model GigHub.ViewModels.GigViewModel
 @{
     ViewBag.Title = "Home Page";
 }
 
 <ul class="gigs">
-    @foreach (var gig in Model)
+    @foreach (var gig in Model.UpComingGigs)
     {
         <li>
             <div class="date">
@@ -15,7 +15,7 @@
                 <div class="day">
                     @gig.DateTime.ToString("d ")
                 </div>
-                </div>
+            </div>
             <div class="details">
                 <div class="details__info">
 
@@ -26,15 +26,18 @@
                         @gig.Genre.Name
                     </span>
                 </div>
-                <div class="action-btn">
-                    <button id="" class="btn btn-sm btn-info toogle-attand" data-gig-id="@gig.Id">
-                        going?
-                    </button>
-                    <button class="btn btn-sm btn-warning following" data-artistId="@gig.ArtistId">
-                        Following
-                    </button>
+                @if (Model.ShowAction)
+                {
+                    <div class="action-btn">
+                        <button id="" class="btn btn-sm btn-info toogle-attand" data-gig-id="@gig.Id">
+                            going?
+                        </button>
+                        <button class="btn btn-sm btn-warning following" data-artistId="@gig.ArtistId">
+                            Following
+                        </button>
 
-                </div>
+                    </div>
+                }
             </div>
         </li>
     }
@@ -56,18 +59,19 @@
                  alert("Something is wrong");
                });
             });
-             $(".following").click(function (e) {
-                            var button = $(e.target);
-                           $.post("/api/Following", { ArtistId : button.attr("data-artistId") })
-                           .done(function(e) {
-                               button.removeClass("btn-warning")
-                               .addClass("btn-primary")
-                               .text("Unfollow");
-                           })
-                           .fail(function() {
-                             alert("Something is wrong");
-                           });
-                        });
+            
+            $(".following").click(function (e) {
+               var button = $(e.target);
+               $.post("/api/Following/follow", { ArtistId : button.attr("data-artistId") })
+               .done(function(e) {
+                   button.removeClass("btn-warning")
+                   .addClass("btn-primary")
+                   .text("Unfollow");
+               })
+               .fail(function() {
+                 alert("Something is wrong");
+               });
+            });
         });
     </script>
 }

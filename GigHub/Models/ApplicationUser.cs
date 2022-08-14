@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -11,6 +13,16 @@ namespace GigHub.Models
     {
         [Required] [StringLength(100)] 
         public string Name { get; set; }
+
+        public ICollection<Following> Followers { get; set; }
+        public ICollection<Following> Followees{ get; set; }
+
+        public ApplicationUser()
+        {
+            // when you use a Collection, always init it since it's the responsibility of the using class
+            Followers = new Collection<Following>();
+            Followers = new Collection<Following>();
+        }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {

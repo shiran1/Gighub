@@ -18,6 +18,25 @@ namespace GigHub.Controllers
         }
 
         [Authorize]
+        public ActionResult Attending()
+        {
+            var userId = User.Identity.GetUserId();
+            var gigs = _context.Attendaces
+                .Where(a => a.AttendeeId == userId)
+                .Select((a => a.Gig))
+                .Include(g => g.Artist)
+                .Include(g => g.Genre)
+                .ToList();
+
+            var viewModel = new GigViewModel
+            {
+                UpComingGigs = gigs,
+                ShowAction = User.Identity.IsAuthenticated
+            };
+            return View("index", viewModel);
+        }
+
+        [Authorize]
         public ActionResult Mine()
         {
             var userId = User.Identity.GetUserId();
@@ -86,7 +105,7 @@ namespace GigHub.Controllers
 
             return View("GigForm", viewModel);
         }
-        
+
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
