@@ -22,15 +22,17 @@ select,
 textarea {
     max-width: 280px;
 }
+
 /* Custom general */
 
 .badge-primary {
-    background: #838308;  
+    background: #838308;
 }
 
 .action-btn {
     margin-top: 1rem;
 }
+
 /* adding validation styles*/
 span.field-validation-error {
     color: #ff3535;
@@ -69,7 +71,7 @@ span.field-validation-error {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 3rem ;
+    margin-left: 3rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -77,7 +79,7 @@ span.field-validation-error {
 .gigs .details .artist {
     font-weight: 600;
     font-size: 18px;
-    
+
 }
 
 .gigs > li .actions {
@@ -87,4 +89,31 @@ span.field-validation-error {
 
 .gigs > li:hover .actions {
     display: block;
+}
+
+
+/*======= Artist Im following =====*/
+.artist-following {
+    padding: 2rem;
+    list-style: none;
+}
+
+.artist-following > li {
+    display: flex;
+    justify-content: space-between;
+    background: #ffd88a;
+    padding: 1rem 2rem;
+    color: white;
+    max-width: 35rem;
+    border-radius: 2rem;
+    align-items: center;
+    
+}
+
+.artist-following__name {
+    font-size: 2rem;
+}
+
+.artist-following__link {
+    
 }

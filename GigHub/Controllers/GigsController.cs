@@ -33,7 +33,7 @@ namespace GigHub.Controllers
                 UpComingGigs = gigs,
                 ShowAction = User.Identity.IsAuthenticated
             };
-            
+
             return View("index", viewModel);
         }
 
@@ -45,7 +45,7 @@ namespace GigHub.Controllers
                 .Where(f => f.FolloweeId == userId)
                 .Include(f => f.Follower)
                 .ToList();
-            
+
             return View(myFollowings);
         }
 
@@ -57,7 +57,7 @@ namespace GigHub.Controllers
                 .Where(g => g.ArtistId == userId && g.DateTime > DateTime.Now)
                 .Include(g => g.Genre)
                 .ToList();
-
+            
             return View(gigs);
         }
 
@@ -95,7 +95,6 @@ namespace GigHub.Controllers
 
             _context.Gigs.Add(gig);
             _context.SaveChanges();
-
             return RedirectToAction("mine", "Gigs");
         }
 
@@ -115,7 +114,6 @@ namespace GigHub.Controllers
                 Venue = gig.Venue,
                 Genre = gig.GenreId
             };
-
             return View("GigForm", viewModel);
         }
 
@@ -136,9 +134,7 @@ namespace GigHub.Controllers
             gig.Venue = viewModel.Venue;
             gig.DateTime = viewModel.GetDateTime();
             gig.GenreId = viewModel.Genre;
-
             _context.SaveChanges();
-
             return RedirectToAction("mine", "Gigs");
         }
     }

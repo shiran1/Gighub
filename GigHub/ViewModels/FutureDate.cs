@@ -5,7 +5,7 @@ using System.Globalization;
 namespace GigHub.ViewModels
 {
     /// <summary>
-    /// Validate if the date is in future
+    /// Validate if the date is in the future
     /// </summary>
     public class FutureDate : ValidationAttribute
     {

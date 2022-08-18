@@ -7,7 +7,18 @@
 
 <h2>Artist I'm Following</h2>
 
-@foreach (var following in Model)
-{
-    <p>@following.Follower.Name</p>
-}
+<ul class="artist-following">
+    @foreach (var following in Model)
+    {
+        <li>
+            <div class="artist-following__name">
+                @following.Follower.Name
+
+            </div>
+            <div class="artist-following__link">
+                <a class="btn btn-link" href="#">unfollow</a>
+            </div>
+
+        </li>
+    }
+</ul>
