@@ -102,6 +102,9 @@ namespace GigHub.Controllers
         public ActionResult Edit(int id)
         {
             var userId = User.Identity.GetUserId();
+            
+            // Second part of the LINQ checks the one who create the gig and the currently
+            // logged in user are the same user
             var gig = _context.Gigs.Single(g => g.Id == id && g.ArtistId == userId);
 
             var viewModel = new GigFormViewModel
@@ -128,14 +131,16 @@ namespace GigHub.Controllers
                 return View("GigForm", viewModel);
             }
 
-            // constructing a Gig from GigView
+            // constructing a Gig from GigView Model
             var userId = User.Identity.GetUserId();
             var gig = _context.Gigs.Single(g => g.Id == viewModel.Id && g.ArtistId == userId);
             gig.Venue = viewModel.Venue;
             gig.DateTime = viewModel.GetDateTime();
             gig.GenreId = viewModel.Genre;
+            
             _context.SaveChanges();
+            
             return RedirectToAction("mine", "Gigs");
         }
-    }
+    } 
 }

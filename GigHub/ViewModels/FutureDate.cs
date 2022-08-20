@@ -21,4 +21,5 @@ namespace GigHub.ViewModels
             return (isValid && dateTime > DateTime.Now);
         }
     }
+
 }

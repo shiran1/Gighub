@@ -36,15 +36,16 @@ namespace GigHub.ViewModels
             get
             {
                 // TODO: check this more in details = Mosh-Asp.net mvc p-2-sec-2-lec-08
-                Expression<Func<GigsController, ActionResult>> update = (c => c.Update(this));
-                Expression<Func<GigsController, ActionResult>> create = (c => c.Create(this));
+                Expression<Func<GigsController, ActionResult>> update =
+                    (c => c.Update(this));
+                Expression<Func<GigsController, ActionResult>> create = 
+                    (c => c.Create(this));
 
                 var action = (Id != 0) ? update : create;
+
                 return (action.Body as MethodCallExpression).Method.Name;
             }
         }
-
-
 
         // Information Expert = the one who has the detail is the one who should do it
         public DateTime GetDateTime()
